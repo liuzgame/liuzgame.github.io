@@ -161,12 +161,11 @@
 <script>
 function redirectToTelegram(name) {
   var isTelegramInstalled = navigator.userAgent.includes('Telegram');
-  var telegramUrl = 'https://t.me/${name}';
+  var telegramUrl = 'https://t.me/HeZheLi';
 
   if (isTelegramInstalled) {
-    telegramUrl = 'tg://resolve?domain=${name}';
+    telegramUrl = 'tg://resolve?domain=HeZheLi';
   }
-alert(telgramUrl)
   window.location.href = telegramUrl;
 }
 
